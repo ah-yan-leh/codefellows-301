@@ -1,5 +1,3 @@
-# Page under construction
-## LABS
+# 301-code-wars
 
-[SMACSS](https://github.com/ah-yan-leh/00-SMACSS)
-[ES6](https://github.com/ah-yan-leh/00-ES6)
+## My solutions for code wars will be here

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/sprites/form-elements-sprite.png">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layout.css">
+<link rel="stylesheet" href="css/module.css">
+<style>
+</style>
+</head>
+<body>
+    
+<div class="ui-challenge-form">
+    <form>
+        <div class="form-field">
+            <label for="">
+                text input
+            </label>
+            <br>
+            <input type="text" id="inputField" placeholder="Placeholder text">
+            <p id="error-slot"></p>
+        </div>
+        <div class="form-field">
+            <label for="">
+                select box
+            </label>
+            <br>
+            <span class="form-sprite arrow-down"></span>
+            <select name="" id="">
+                <optgroup>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                        <option value="4">Option 4</option>
+                        <option value="5">Option 5</option>
+                </optgroup>
+            </select>
+        </div>
+        <div class="form-field">
+            <label for="">
+                checkbox
+            </label>
+            <br>
+            <input type="checkbox" class="form-sprite checked-false"><br>
+        </div>
+        <div class="form-field">
+            <label for="">
+                radio
+            </label>
+            <br>
+            <input type="radio" class="form-sprite radio-false"><br>
+        </div>
+        <div class="form-field">
+            <label for="">
+                buttons
+            </label>
+            <br>
+            <input type="button" value="Submit"><br>
+        </div>
+    </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+<script src="scripts/validation.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+.ui-challenge-form{
+    margin:20px;
+    padding:20px;
+}
+.form-field{
+    margin: 30px;
+    padding: 10px;
+}
+.form-sprite {
+    background-image: url(sprites/form-elements-sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+    transform: scale(.33); 
+}
+.checked-true {
+    width: 161px;
+    height: 160px;
+    background-position: -158px -239px;
+}
+.checked-false{
+    width: 161px;
+    height: 160px;
+    background-position: -381px -239px;
+}
+.radio-true{
+    width: 168px;
+    height: 170px;
+    background-position: -812px -239px;
+}
+.radio-false{
+    width: 168px;
+    height: 170px;
+    background-position: -582px -239px;
+}
+.arrow-up{
+    width: 81px;
+    height: 79px;
+    background-position: -1032px -279px;
+}
+.arrow-down{
+    width: 81px;
+    height: 79px;
+    background-position: -1142px -279px;
+}
+.selectOpSprite::before{
+
+    content: url(sprites/form-elements-sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+    background-position: -1142px -279px;
+    transform: scale(.33); 
+}
+.selectOpSprite::after{
+    width: 81px;
+    height: 79px;
+}
+#error-slot{
+    font-size: 30px;
+    color:red;
+}
+input[type='radio']:checked{
+    width: 168px;
+    height: 170px;
+    background-position: -812px -239px;
+}
+input[type="checkbox"]:checked .checked-true {
+    width: 161px;
+    height: 160px;
+    background-position: -158px -239px;
+  }
+input[type="button"]:hover{
+    background: rgb(70, 68, 68);
+}

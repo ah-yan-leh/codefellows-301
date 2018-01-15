@@ -1,4 +1,3 @@
-//
 function mutateMyStrings(s1, s2){
 
  var st = s1,

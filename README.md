@@ -1,4 +1,5 @@
-[Course Page](https://github.com/codefellows/seattle-301n9)
+[Course Page](https://github.com/codefellows/seattle-301n9) || 
+[YouTube Screencasts](https://www.youtube.com/playlist?list=PLVngfM2hsbi9gpVh53Z08zcMs2T7rTDw8) ||
 [![](https://img.shields.io/badge/canvas-301n9-blue.svg)](https://canvas.instructure.com/courses/1245195)
 [![](https://img.shields.io/badge/Labs-301n9-yellow.svg)](https://github.com/codefellows-seattle-301n9)
 [![](https://img.shields.io/badge/slack-301n9-orange.svg)](https://codefellows.slack.com/messages/seattle-301n9)
